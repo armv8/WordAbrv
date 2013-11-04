@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WordAbrv.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString * sentence = @"The red brown fox, jumped over the lazy dog";
+    NSError * error = nil;
+    NSString * newSentence = [WordAbrv abbreviateSentence:sentence error:&error];
+    NSLog(@"Orig: %@\nNew: %@", sentence, newSentence);
 }
 
 - (void)didReceiveMemoryWarning

@@ -22,6 +22,7 @@
 		60D85D9C1823101200149159 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D85D7B1823101200149159 /* UIKit.framework */; };
 		60D85DA41823101200149159 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60D85DA21823101200149159 /* InfoPlist.strings */; };
 		60D85DA61823101200149159 /* WordAbrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D85DA51823101200149159 /* WordAbrTests.m */; };
+		60D85DB11823102600149159 /* WordAbrv.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D85DB01823102600149159 /* WordAbrv.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		60D85DA11823101200149159 /* WordAbrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordAbrTests-Info.plist"; sourceTree = "<group>"; };
 		60D85DA31823101200149159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60D85DA51823101200149159 /* WordAbrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordAbrTests.m; sourceTree = "<group>"; };
+		60D85DAF1823102600149159 /* WordAbrv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordAbrv.h; sourceTree = "<group>"; };
+		60D85DB01823102600149159 /* WordAbrv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordAbrv.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				60D85D901823101200149159 /* ViewController.m */,
 				60D85D921823101200149159 /* Images.xcassets */,
 				60D85D7E1823101200149159 /* Supporting Files */,
+				60D85DAF1823102600149159 /* WordAbrv.h */,
+				60D85DB01823102600149159 /* WordAbrv.m */,
 			);
 			path = WordAbr;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D85DB11823102600149159 /* WordAbrv.m in Sources */,
 				60D85D911823101200149159 /* ViewController.m in Sources */,
 				60D85D881823101200149159 /* AppDelegate.m in Sources */,
 				60D85D841823101200149159 /* main.m in Sources */,
